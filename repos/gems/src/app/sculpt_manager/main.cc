@@ -2664,6 +2664,7 @@ void Sculpt::Main::_handle_runtime_state(Node const &state)
 			/* trigger update and deploy */
 			reconfigure_runtime = true;
 			_panel_dialog.refresh(); /* show "System" button */
+			_query_depot();
 		}
 	}
 
