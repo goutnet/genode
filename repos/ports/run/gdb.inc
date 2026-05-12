@@ -225,7 +225,7 @@ config
       + parent
       + any-child
 
-+ start gdb | caps: 300 | ram: 46M
++ start gdb | caps: 300 | ram: 48M
   + binary /bin/} [gdb_prefix] {gdb
   + config | ld_verbose: yes
   | + vfs
